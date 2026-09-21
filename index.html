@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>N & K Home Bakery</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #fff8f3;
+            color: #4a2c2a;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            background: #f6d6c9;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .order-button {
+            display: inline-block;
+            padding: 14px 28px;
+            background: #4a2c2a;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 50px 20px;
+        }
+
+        .section h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 180px;
+            padding: 25px 15px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+        }
+
+        .product-image {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .card strong {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .about {
+            background: #f6d6c9;
+        }
+
+        .about p {
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        footer {
+            padding: 25px;
+            background: #4a2c2a;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .card {
+                width: 80%;
+                max-width: 280px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HOME -->
+
+    <div class="hero">
+
+        <h1>N & K Home Bakery</h1>
+
+        <p>Freshly baked with love.</p>
+
+        <a class="order-button"
+   href="https://api.whatsapp.com/send?phone=917846822237&text=Hi%21%20I%27d%20like%20to%20place%20an%20order%20from%20My%20Home%20Bakery."
+   target="_blank">
+    Order Now
+          
+        </a>
+
+    </div>
+
+
+    <!-- MENU -->
+
+    <div class="section" id="menu">
+
+        <h2>Our Menu</h2>
+
+        <div class="items">
+
+            <div class="card">
+
+                <div class="product-image">🎂</div>
+
+                <h3>Custom Cakes</h3>
+
+                <p>
+                    Beautiful cakes made specially
+                    for your occasion.
+                </p>
+
+                <strong>₹100</strong>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="product-image">🧁</div>
+
+                <h3>Cupcakes</h3>
+
+                <p>
+                    Soft and delicious cupcakes
+                    with your choice of flavour.
+                </p>
+
+                <strong>₹150</strong>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="product-image">🍫</div>
+
+                <h3>Brownies</h3>
+
+                <p>
+                    Rich, chocolatey brownies
+                    freshly baked to order.
+                </p>
+
+                <strong>₹200</strong>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="product-image">🍪</div>
+
+                <h3>Cookies</h3>
+
+                <p>
+                    Freshly baked cookies
+                    for every sweet craving.
+                </p>
+
+                <strong>₹120</strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ABOUT -->
+
+    <div class="section about">
+
+        <h2>About Us</h2>
+
+        <p>
+            Welcome to N & K Home Bakery!
+            Everything is freshly baked with care
+            and made specially for our customers.We
+            care for quality over quantity!   
+        </p>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>© 2026 My Home Bakery</p>
+
+    </footer>
+
+
+</body>
+</html>
